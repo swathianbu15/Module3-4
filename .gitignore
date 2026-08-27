@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+frontend/node_modules/
+
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+
+# Local SQLite databases
+*.db
+backend/dev.db
+
+# Build outputs
+dist/
+build/
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+*.log
